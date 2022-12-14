@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Response - Poma</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      ::-webkit-scrollbar {
+        width: 0.5em;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #630000;
+        border-radius: 8px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: rgb(40, 40, 40);
+      }
+
+      body {
+        margin: 0;
+        font-size: 1rem;
+        background-color: #f2e7e1;
+        font-family: "poppins";
+
+        width: 100%;
+        height: 100vh;
+      }
+      nav {
+        margin: 2em;
+        display: flex;
+      }
+      nav ul {
+        display: flex;
+        list-style: none;
+        margin: auto;
+      }
+      nav li {
+        margin: 0em 2em;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+        padding: 1em;
+      }
+
+      div.logo {
+        margin: 1em 0;
+      }
+
+      .active {
+        color: #630000;
+        border-bottom: 2px solid #630000;
+      }
+
+      main{
+        display: flex;
+        margin: 2em;
+      }
+
+      .options{
+        width: 20%;
+        margin: 5em 0; 
+      }
+
+      .options-list{
+        display: flex;
+        flex-direction: column;
+        background-color: #630000;
+        width: 100%;
+        text-align: center;
+
+        border-radius: 8px;
+      }
+      .options-list a{
+        text-decoration: none;
+        color: white;
+        padding: 1.5em;
+
+        
+      }
+      .bottom-line{
+        border-bottom: 2px solid white;
+      }
+
+
+      .list-response{
+        margin: 1em 2em;
+        width: 80%;
+        height: 150vh;
+        /* border: 1px solid red; */
+      }
+      
+      .table-container{
+        margin: 1em;
+      }
+      .table-container p{
+        margin: 0.5em 0;
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+      .table-container table{
+        width: 100%;
+        border-collapse: collapse;
+        background-color: rgb(34, 33, 39);
+        color: white;
+        border-radius: 8px;
+        
+      }
+      .table-container tr{
+        height: 10vh;
+        
+      }
+      .table-container tr td{
+        padding: 1em;
+        
+      }
+      .table-container tbody td{
+        border-top: 2px solid white;
+        
+        
+      }
+
+      .view-link{
+        text-align: center;
+      }
+      .view-link a{
+        text-decoration: none;
+        color: white;
+
+        background-color: #630000;
+        border-radius: 8px;
+        padding: 0.5em 1em;
+      }
+
+      footer {
+        height: 40vh;
+        background-color: #630000;
+        text-align: center;
+      }
+      footer ul {
+        display: flex;
+        list-style: none;
+        width: 50%;
+        margin: auto;
+        padding: 2em 0;
+      }
+      footer li {
+        margin: auto;
+      }
+      footer a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .foot-icons {
+        display: flex;
+        list-style: none;
+        width: 16%;
+        margin: auto;
+        padding: 2em 0;
+      }
+      .foot-icons li {
+        margin: 1em;
+      }
+      .foot-icons img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="/"><img src="/img/./Poma Logo 1.png" /></a>
+      </div>
+
+      <ul>
+        <li><a href="/customform">Questions</a></li>
+        <li><a href="../../src/views/formresponsepage.html" class="active">Response</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="options">
+        <div class="options-list">
+          <a href="#" class="bottom-line">Back to form</a>
+          <a href="#" class="bottom-line">Edit form</a>
+          <a href="#">Share form</a>
+        </div>
+      </div>
+      <div class="list-response">
+        <div class="table-container">
+            <p> Form Title</p>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Date Submited</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Stave Jackson</td>
+                        <td>12/5/2022</td>
+                        <td class="view-link"><a href="#">View Form</a></td>
+                    </tr>
+                    <tr>
+                        <td>Stave Jackson</td>
+                        <td>12/5/2022</td>
+                        <td class="view-link"><a href="#">View Form</a></td>
+                    </tr>
+                    <tr>
+                        <td>Stave Jackson</td>
+                        <td>12/5/2022</td>
+                        <td class="view-link"><a href="#">View Form</a></td>
+                    </tr>
+                    <tr>
+                        <td>Stave Jackson</td>
+                        <td>12/5/2022</td>
+                        <td class="view-link"><a href="#">View Form</a></td>
+                    </tr>
+                    <tr>
+                        <td>Stave Jackson</td>
+                        <td>12/5/2022</td>
+                        <td class="view-link"><a href="#">View Form</a></td>
+                    </tr>
+                    <tr>
+                        <td>Stave Jackson</td>
+                        <td>12/5/2022</td>
+                        <td class="view-link"><a href="#">View Form</a></td>
+                    </tr>
+                    <tr>
+                        <td>Stave Jackson</td>
+                        <td>12/5/2022</td>
+                        <td class="view-link"><a href="#">View Form</a></td>
+                    </tr>
+                    <tr>
+                        <td>Stave Jackson</td>
+                        <td>12/5/2022</td>
+                        <td class="view-link"><a href="#">View Form</a></td>
+                    </tr>
+                    <tr>
+                        <td>Stave Jackson</td>
+                        <td>12/5/2022</td>
+                        <td class="view-link"><a href="#">View Form</a></td>
+                    </tr>
+                    <tr>
+                        <td>Stave Jackson</td>
+                        <td>12/5/2022</td>
+                        <td class="view-link"><a href="#">View Form</a></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <div class="pagination">
+                        <a href="#">1</a>
+                    </div>
+                </tfoot>
+            </table>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Resource</a></li>
+        <li><a href="https://github.com/zuri-training/Feedback-Repo">Team</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Terms</a></li>
+      </ul>
+
+      <ul class="foot-icons">
+        <li>
+          <a href="#"><img src="/img/./akar-icons_instagram-fill.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/img/./et_facebook.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/img/./twitter.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/img/./clarity_email-line.png" /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

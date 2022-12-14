@@ -1,0 +1,33 @@
+footer{
+    height: 40vh;
+    background-color: #630000;
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    margin: auto;
+    padding: 2em 0;
+}
+footer li{
+    margin: auto;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.foot-icons{
+    display: flex;
+    list-style: none;
+    width: 16%;
+    margin: auto;
+    padding: 2em 0;
+}
+.foot-icons li{
+    margin: 1em;
+}
+.foot-icons img{
+    width: 100%;
+}
